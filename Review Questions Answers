@@ -1,0 +1,178 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Copy of Homework4.ipynb",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/H1dayet/DataScience/blob/main/Review%20Questions%20Answers\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def thrive(n):\n",
+        " if n % 15 ==0:\n",
+        "  print (\"thrive\", end=\"\")\n",
+        " elif n % 3 !=0 and n % 5 !=0:\n",
+        "  print (\"neither\", end=\"\")\n",
+        " elif n % 3 ==0:\n",
+        "  print (\"three\", end=\"\")\n",
+        " elif n % 5 ==0:\n",
+        "  print (\"five\", end=\"\")\n",
+        "\n",
+        "thrive(35)\n",
+        "thrive(56)\n",
+        "thrive(15)\n",
+        "thrive(39)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X2eikTPFRU3b",
+        "outputId": "654e8c39-a5ac-4894-fe5e-830c66ec3fe8"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "fiveneitherthrivethree"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def check (a):\n",
+        "  print(\"Even\" if a % 2==0 else \"Odd\")\n",
+        "\n",
+        "check(12)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ykxeyCh2f73g",
+        "outputId": "41c9548d-5fbd-468f-ca50-7f102c0b5548"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Even\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "count = 0\n",
+        "while(True):\n",
+        "   if count % 3 == 0:\n",
+        "       print (count, end = \"\")\n",
+        "   if(count > 15):\n",
+        "       break;\n",
+        "   count += 1\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TFG6TcsHgOEM",
+        "outputId": "d295f759-d720-4cc9-cbf4-564878cd64a5"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "03691215"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 1\n",
+        "while(True):\n",
+        "   if a % 7 == 0:\n",
+        "       break;\n",
+        "   print(a)  \n",
+        "   a += 1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LFomsMgTkvUz",
+        "outputId": "fbe8623b-b7d3-424e-9543-06882cedc14a"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "example = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\"];\n",
+        "print(example[-3:-1])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KZBPFpvnieru",
+        "outputId": "a888c4bc-c662-405b-c67b-62de05a29c9d"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Monday', 'Tuesday']\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
